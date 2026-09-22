@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import numpy as np
 import joblib
@@ -82,4 +82,3 @@ if st.button("Predict Next Temperature"):
         f"Predicted Next Machine Temperature: "
         f"{predicted_temperature:.2f} °C"
     )
-```
